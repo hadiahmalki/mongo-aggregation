@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 // eslint-disable-next-line prefer-const
-let connectionString = process.env.MONGODB_CONNECTION_STRING || 'mongodb://localhost:27017'
+let connectionString = `mongodb+srv://Hadiah:greatlife13579@clustertravel.acgnixv.mongodb.net/sample_mflix?retryWrites=true&w=majority`
 
 mongoose.set('debug', true)
 
